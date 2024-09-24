@@ -448,7 +448,7 @@ td a:hover {
     left: 44px;
   }
   #bar {
-    height: 420px;
+    height: 600px;
     position: relative;
     top: -222px;
   }
@@ -504,7 +504,7 @@ td a:hover {
     top: 30px;
   }
   #bar {
-    height: 520px;
+    height: 600px;
     position: relative;
     top: -222px;
   }
@@ -572,7 +572,7 @@ td a:hover {
     top: 34px;
   }
   #bar {
-    height: 400px;
+    height: 420px;
     position: relative;
     top: -222px;
   }
@@ -581,16 +581,16 @@ td a:hover {
     left: 25%;
   }
 }
-@media only screen and (min-width: 1351px) and (max-width: 1623px) {
+@media only screen and (min-width: 1351px) and (max-width: 1622px) {
   #bar {
-    height: 400px;
+    height: 420px;
     position: relative;
     top: -200px;
   }
 }
-@media only screen and (min-width: 1624px) {
+@media only screen and (min-width: 1623px) {
   #bar {
-    height: 500px;
+    height: 520px;
     position: relative;
     top: -200px;
   }

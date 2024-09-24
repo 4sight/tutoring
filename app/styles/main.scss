@@ -460,7 +460,7 @@ and (max-width : 670px) {
     left: 44px;
   }
   #bar {
-    height: 420px;
+    height: 600px;
     position: relative;
     top: -222px;
   }
@@ -519,7 +519,7 @@ and (max-width : 980px) {
     top: 30px;
   }
   #bar {
-    height: 520px;
+    height: 600px;
     position: relative;
     top: -222px;
   }
@@ -593,7 +593,7 @@ and (max-width : 1350px) {
     top: 34px;
   }
   #bar {
-    height: 400px;
+    height: 420px;
     position: relative;
     top: -222px;
   }
@@ -605,18 +605,18 @@ and (max-width : 1350px) {
 
 @media only screen
 and (min-width : 1351px)
-and (max-width : 1623px) {
+and (max-width : 1622px) {
   #bar {
-    height: 400px;
+    height: 420px;
     position: relative;
     top: -200px;
   }
 }
 
 @media only screen
-and (min-width : 1624px) {
+and (min-width : 1623px) {
   #bar {
-    height: 500px;
+    height: 520px;
     position: relative;
     top: -200px;
   }
