@@ -140,8 +140,11 @@ h3 {
 }
 
 ul {
-  font-size: 20px;
+  font-size: 24px;
   text-align: left;
+  position: relative;
+  top: 40px;
+  color: #DDDDDD;
 }
 
 .subject {
@@ -151,7 +154,7 @@ ul {
 
 #consultation {
   position: relative;
-  top: -160px;
+  top: -110px;
   margin-left: 20px;
   margin-right: 20px;
 }
