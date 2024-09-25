@@ -159,6 +159,8 @@ ul {
 #consultation {
   position: relative;
   top: -160px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /*.show {
@@ -419,13 +421,16 @@ and (max-width : 546px) {
     position: relative;
     top: 30px;
   }
-  h3 {
-    font-size: 24px;
-    color: #DDDDDD;
+  h1 {
+    width: 400px;
   }
   h2 {
     position: relative;
     top: -180px;
+    color: #DDDDDD;
+  }
+  h3 {
+    font-size: 24px;
     color: #DDDDDD;
   }
   .step p {
@@ -492,13 +497,16 @@ and (max-width : 670px) {
     position: relative;
     top: 30px;
   }
-  h3 {
-    font-size: 24px;
-    color: #DDDDDD;
+  h1 {
+    width: 400px;
   }
   h2 {
     position: relative;
     top: -200px;
+    color: #DDDDDD;
+  }
+  h3 {
+    font-size: 24px;
     color: #DDDDDD;
   }
   .step p {
