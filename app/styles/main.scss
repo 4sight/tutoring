@@ -423,6 +423,85 @@ td {
 }
 
 @media only screen
+and (max-width : 390px) {
+  #stars {
+    background-size: 1080px;
+  }
+  #main
+  {
+    position: relative;
+    top: 30px;
+  }
+  h1 {
+    width: 300px;
+  }
+  h2 {
+    position: relative;
+    top: -120px;
+    color: #DDDDDD;
+  }
+  h3 {
+    font-size: 24px;
+    color: #DDDDDD;
+  }
+  .step p {
+    font-size: 12px;
+  }
+  .stepText {
+    color: #DDDDDD;
+  }
+  .stepBreak {
+    display: initial;
+  }
+  .hiddenText {
+    display: none;
+  }
+  .stepImage {
+    display: none;
+  }
+  #step2image {
+    display: none;
+  }
+  #step2text{
+    top: 0px;
+  }
+  .step {
+    background-color: transparent;
+    margin: 0px;
+    padding: 5px;
+  }
+  #githubIconTop {
+    left: 5px;
+  }
+  #linkedinIcon {
+    left: -44px;
+  }
+  #githubIconBottom {
+    position: relative;
+    top: -42px;
+    left: 44px;
+  }
+  #bar {
+    height: 680px;
+    position: relative;
+    top: -222px;
+  }
+  #subjectsWrapper {
+    position: relative;
+    left: 22%;
+  }
+  footer {
+    color: $offWhite;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -50px;
+  }
+}
+
+@media only screen
+and (min-width : 391px)
 and (max-width : 477px) {
   #stars {
     background-size: 1080px;
