@@ -91,6 +91,8 @@ h2 {
   padding-top: 20px;
   padding-bottom: 20px;
   z-index: 2;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .main {
@@ -158,6 +160,11 @@ h3 {
 ul {
   font-size: 20px;
   text-align: left;
+}
+
+.subject {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #consultation {
@@ -416,7 +423,7 @@ td {
 }
 
 @media only screen
-and (max-width : 546px) {
+and (max-width : 477px) {
   #stars {
     background-size: 1080px;
   }
@@ -430,7 +437,7 @@ and (max-width : 546px) {
   }
   h2 {
     position: relative;
-    top: -180px;
+    top: -140px;
     color: #DDDDDD;
   }
   h3 {
@@ -475,13 +482,92 @@ and (max-width : 546px) {
     left: 44px;
   }
   #bar {
-    height: 600px;
+    height: 680px;
     position: relative;
     top: -222px;
   }
   #subjectsWrapper {
     position: relative;
-    left: 30%;
+    left: 22%;
+  }
+  footer {
+    color: $offWhite;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -50px;
+  }
+}
+
+@media only screen
+and (min-width : 478px)
+and (max-width : 546px) {
+  #stars {
+    background-size: 1080px;
+  }
+  #main
+  {
+    position: relative;
+    top: 30px;
+  }
+  h1 {
+    width: 400px;
+  }
+  h2 {
+    position: relative;
+    top: -160px;
+    color: #DDDDDD;
+  }
+  h3 {
+    font-size: 24px;
+    color: #DDDDDD;
+  }
+  .step p {
+    font-size: 12px;
+  }
+  .stepText {
+    color: #DDDDDD;
+  }
+  .stepBreak {
+    display: initial;
+  }
+  .hiddenText {
+    display: none;
+  }
+  .stepImage {
+    display: none;
+  }
+  #step2image {
+    display: none;
+  }
+  #step2text{
+    top: 0px;
+  }
+  .step {
+    background-color: transparent;
+    margin: 0px;
+    padding: 5px;
+  }
+  #githubIconTop {
+    left: 5px;
+  }
+  #linkedinIcon {
+    left: -44px;
+  }
+  #githubIconBottom {
+    position: relative;
+    top: -42px;
+    left: 44px;
+  }
+  #bar {
+    height: 680px;
+    position: relative;
+    top: -222px;
+  }
+  #subjectsWrapper {
+    position: relative;
+    left: 22%;
   }
   footer {
     color: $offWhite;
@@ -554,13 +640,13 @@ and (max-width : 670px) {
     left: 44px;
   }
   #bar {
-    height: 600px;
+    height: 680px;
     position: relative;
     top: -222px;
   }
   #subjectsWrapper {
     position: relative;
-    left: 30%;
+    left: 22%;
   }
   footer {
     color: $offWhite;
