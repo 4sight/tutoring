@@ -113,6 +113,10 @@ h3 {
   font-size: 14px;
 }
 
+.stepBreak {
+  display: none;
+}
+
 .subject {
   float: left;
   display: block;
@@ -427,6 +431,9 @@ td a:hover {
   .stepText {
     color: #DDDDDD;
   }
+  .stepBreak {
+    display: initial;
+  }
   .hiddenText {
     display: none;
   }
@@ -486,7 +493,7 @@ td a:hover {
   }
   h2 {
     position: relative;
-    top: -200px;
+    top: -160px;
     color: #DDDDDD;
   }
   h3 {
@@ -498,6 +505,9 @@ td a:hover {
   }
   .stepText {
     color: #DDDDDD;
+  }
+  .stepBreak {
+    display: initial;
   }
   .hiddenText {
     display: none;

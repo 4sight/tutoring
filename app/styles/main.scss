@@ -131,6 +131,10 @@ h3 {
   }
 }
 
+.stepBreak {
+  display: none;
+}
+
 .subject {
   float: left;
   display: block;
@@ -439,6 +443,9 @@ and (max-width : 546px) {
   .stepText {
     color: #DDDDDD;
   }
+  .stepBreak {
+    display: initial;
+  }
   .hiddenText {
     display: none;
   }
@@ -502,7 +509,7 @@ and (max-width : 670px) {
   }
   h2 {
     position: relative;
-    top: -200px;
+    top: -160px;
     color: #DDDDDD;
   }
   h3 {
@@ -514,6 +521,9 @@ and (max-width : 670px) {
   }
   .stepText {
     color: #DDDDDD;
+  }
+  .stepBreak {
+    display: initial;
   }
   .hiddenText {
     display: none;
