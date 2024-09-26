@@ -482,7 +482,14 @@ td a:hover {
   }
   #subjectsWrapper {
     position: relative;
-    left: 22%;
+    left: 14%;
+    top: -180px;
+  }
+  .subject {
+    margin-right: 7%;
+  }
+  ul {
+    font-size: 20px;
   }
   footer {
     color: #DDDDDD;
@@ -559,6 +566,9 @@ td a:hover {
     position: relative;
     left: 22%;
   }
+  ul {
+    font-size: 20px;
+  }
   footer {
     color: #DDDDDD;
     text-align: center;
@@ -634,6 +644,9 @@ td a:hover {
     position: relative;
     left: 22%;
     top: -200px;
+  }
+  ul {
+    font-size: 20px;
   }
   #consultation {
     font-size: 20px;

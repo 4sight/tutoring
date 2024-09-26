@@ -494,7 +494,14 @@ and (max-width : 390px) {
   }
   #subjectsWrapper {
     position: relative;
-    left: 22%;
+    left: 14%;
+    top: -180px;
+  }
+  .subject {
+    margin-right: 7%;
+  }
+  ul {
+    font-size: 20px;
   }
   footer {
     color: $offWhite;
@@ -575,6 +582,9 @@ and (max-width : 477px) {
     position: relative;
     left: 22%;
   }
+  ul {
+    font-size: 20px;
+  }
   footer {
     color: $offWhite;
     text-align: center;
@@ -654,6 +664,9 @@ and (max-width : 546px) {
     position: relative;
     left: 22%;
     top: -200px;
+  }
+  ul {
+    font-size: 20px;
   }
   #consultation {
     font-size: 20px;
