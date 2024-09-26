@@ -488,7 +488,7 @@ and (max-width : 390px) {
     left: 44px;
   }
   #bar {
-    height: 740px;
+    height: 680px;
     position: relative;
     top: -222px;
   }
@@ -499,6 +499,10 @@ and (max-width : 390px) {
   }
   .subject {
     margin-right: 7%;
+  }
+  #consultation {
+    position: relative;
+    top: -100px;
   }
   ul {
     font-size: 20px;
@@ -574,13 +578,21 @@ and (max-width : 477px) {
     left: 44px;
   }
   #bar {
-    height: 740px;
+    height: 620px;
     position: relative;
     top: -222px;
+  }
+  .subject {
+    margin-right: 7%;
   }
   #subjectsWrapper {
     position: relative;
     left: 22%;
+    top: -200px;
+  }
+  #consultation {
+    position: relative;
+    top: -140px;
   }
   ul {
     font-size: 20px;
@@ -668,6 +680,9 @@ and (max-width : 546px) {
   ul {
     font-size: 20px;
   }
+  .subject {
+    margin-right: 7%;
+  }
   #consultation {
     font-size: 20px;
     position: relative;
@@ -728,6 +743,8 @@ and (max-width : 670px) {
     top: 0px;
   }
   .step {
+    position: relative;
+    top: -40px;
     background-color: transparent;
     margin: 0px;
     padding: 5px;
@@ -752,6 +769,9 @@ and (max-width : 670px) {
     position: relative;
     left: 22%;
     top: -220px;
+  }
+  .subject {
+    margin-right: 7%;
   }
   #consultation {
     position: relative;

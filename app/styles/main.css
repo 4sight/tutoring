@@ -476,7 +476,7 @@ td a:hover {
     left: 44px;
   }
   #bar {
-    height: 740px;
+    height: 680px;
     position: relative;
     top: -222px;
   }
@@ -487,6 +487,10 @@ td a:hover {
   }
   .subject {
     margin-right: 7%;
+  }
+  #consultation {
+    position: relative;
+    top: -100px;
   }
   ul {
     font-size: 20px;
@@ -558,13 +562,21 @@ td a:hover {
     left: 44px;
   }
   #bar {
-    height: 740px;
+    height: 620px;
     position: relative;
     top: -222px;
+  }
+  .subject {
+    margin-right: 7%;
   }
   #subjectsWrapper {
     position: relative;
     left: 22%;
+    top: -200px;
+  }
+  #consultation {
+    position: relative;
+    top: -140px;
   }
   ul {
     font-size: 20px;
@@ -648,6 +660,9 @@ td a:hover {
   ul {
     font-size: 20px;
   }
+  .subject {
+    margin-right: 7%;
+  }
   #consultation {
     font-size: 20px;
     position: relative;
@@ -704,6 +719,8 @@ td a:hover {
     top: 0px;
   }
   .step {
+    position: relative;
+    top: -40px;
     background-color: transparent;
     margin: 0px;
     padding: 5px;
@@ -728,6 +745,9 @@ td a:hover {
     position: relative;
     left: 22%;
     top: -220px;
+  }
+  .subject {
+    margin-right: 7%;
   }
   #consultation {
     position: relative;
