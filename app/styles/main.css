@@ -480,10 +480,14 @@ td a:hover {
     position: relative;
     top: -222px;
   }
+  h2 {
+    position: relative;
+    top: -80px;
+  }
   #subjectsWrapper {
     position: relative;
     left: 14%;
-    top: -180px;
+    top: -160px;
   }
   .subject {
     margin-right: 7%;
